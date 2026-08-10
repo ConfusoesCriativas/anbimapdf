@@ -1230,5 +1230,23 @@ See https://github.com/adobe-type-tools/cmap-resources
     </div>
     <!-- outerContainer -->
     <div id="printContainer"></div>
+      <script>
+document.addEventListener("click", function(event) {
+  const link = event.target.closest("a");
+
+  if (!link) return;
+
+  const href = link.href;
+
+  if (
+    href &&
+    (href.startsWith("http://") || href.startsWith("https://"))
+  ) {
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  }
+}, true);
+</script>
+      
   </body>
 </html>
