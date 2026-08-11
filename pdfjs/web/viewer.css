@@ -8160,3 +8160,13 @@ dialog :link{
     display:none;
   }
 }
+
+/* ANBIMA — ocultar barra de ferramentas */
+#toolbarContainer {
+  display: none !important;
+}
+
+/* PDF ocupa todo o espaço disponível */
+#viewerContainer {
+  top: 0 !important;
+}
