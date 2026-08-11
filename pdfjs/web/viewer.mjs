@@ -682,7 +682,7 @@ const defaultOptions = new Map([["allowedGlobalEvents", {
   value: "noopener noreferrer nofollow",
   kind: OptionKind.VIEWER
 }], ["externalLinkTarget", {
-  value: 0,
+  value: 2,
   kind: OptionKind.VIEWER + OptionKind.PREFERENCE
 }], ...[], ["highlightEditorColors", {
   value: "yellow=#FFFF98,green=#53FFBC,blue=#80EBFF,pink=#FFCBE6,red=#FF4F5F," + "yellow_HCM=#FFFFCC,green_HCM=#53FFBC,blue_HCM=#80EBFF,pink_HCM=#F6B8FF,red_HCM=#C50043",
